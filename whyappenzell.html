@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>                      
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <h3><u>Reasons to visit Appenzell.</u></h3>
+                <hr>
+                <ul type="none" id="textfix">
+                    <img src="images/oversea1/hillclimbing.jpg" id="imgfix" alt="Alpstein Hill" width="50%" height="50%">                    
+                    <li><b>1. One of the most famous hiker paradise.</b></li>
+                    <p>During summer, the Alpstein is well known for being a hiker's paradise. 
+                        Two popular destinations are Ebenalp and Hoher Kasten.
+                        They are not challenging but beautiful, so 
+                        these hikes will not bore experienced hikers.</p>
+                    <hr>
+                    <img src="images/oversea1/hofweissbad.jpg" id="imgfix" alt="Hof Weissbad" width="50%" height="50%">
+                    <li><b>2. Hof Weissbad.</b></li>
+                    <p>
+                        Stay at the four-star <strong>Hof Weissbad</strong>, just minutes from the town of Appenzell, for a perfect getaway to 
+                        Eastern Switzerland. A romantic lantern-lit trail through the nearby forest is just steps away from the 
+                        hotel. Steam baths and Finnish saunas are available in the spa area.<br>
+                        After a day of physical activity in the mountains, nothing beats a trip to the spa to relax those tense 
+                        muscles. The highest standards are strictly adhered to, and the hotel is known for consistently winning 
+                        awards for being one of Switzerland's best employers. This becomes clear when you consider the staff's 
+                        friendliness and hospitality. 
+                        When you consider the staff's friendliness and hospitality, it's easy to see why.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/appenzellmusic.jpg" id="imgfix" alt="Music" width="50%" height="50%">
+                    <li><b>3. Indulge in some finest local music</b></li>
+                    <p>
+                        Appenzell string music, which includes hammered dulcimer, double bass, cello, and two violins, is well-known around the world.
+                        There is a possibility that
+                        the most famous string music ensemble are the Alder family from <em>Urnäsch</em>. 
+                        They have performed string music together since 1884 and today the 
+                        different line-ups of the group including 3rd-, 4th- and 5th-generation members of the family.
+                        There is also a good chance you will hear the dulcimer because it is an integral part of Appenzeller music in Appenzell. 
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/santis.jpg" id="imgfix" alt="Santis Cable Car" width="50%" height="50%">
+                    <li><b>4. Säntis cable car</b></li>
+                    <p>
+                        The railway line built to Wasserauen at the turn of the century was actually the 
+                        first section of a planned railway up the Säntis. However, the railway line 
+                        never extended beyond the valley town, so the cable car from Schwägalp to the top of the Säntis was 
+                        inaugurated in 1935. From the valley station, you glide almost weightlessly up to the imposing summit 
+                        in about 10 minutes. On clear days, the mountain offers breathtaking views of <stong>France, Germany, Italy, 
+                        Austria, Liechtenstein, and Switzerland</stong> from 2,502 metres above sea level. During the summer, the mountain 
+                        attracts visitors with a variety of special experiences such as full moon trips, sunrise ascents, and 
+                        Säntis-Spitzegnoss evenings. It is also appropriate for people of all ages.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/hoherkasten.jpg" id="imgfix" alt="Hoher Kasten" width="50%" height="50%">
+                    <li><b>5. Hoher Kasten, the Top of Appenzell</b></li>
+                    <p>
+                        Appenzell's summit Providing Informative panorama boards and free telescopes with integrated peak 
+                        identification that explain the surrounding environment. Discover more than 300 species of Alpstein 
+                        plants on a stroll or guided tour through the summit's Alpine garden. A wheelchair-friendly panoramic 
+                        trail with attractive viewing spots now circles the restaurant in a large arc. The newly created geologic 
+                        hike also begins on the Hoher Kasten, with 17 boards explaining the shaping, folds, and fractures of the 
+                        rocky terrain. A gondola-style rail connects Stauberenkanzel to the Rhine Valley, with a geological path 
+                        leading further afield, 
+                        via Saxerlücke, to the Fählensee lake, taking 3 hours and 30 minutes.
+                    </p>
+                    <hr>
+                </ul>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="oversea1.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+</script>

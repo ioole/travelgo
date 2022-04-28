@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>                      
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style=cursor:pointer; onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="reasonpilatus">
+                    <h3>Reason to visit Fribourg</h3>
+                </div>
+                <hr>
+                <ul type="none" id="textfix">
+                    <img src="images/oversea1/musee.jpg" id="imgfix" alt="Musée H.R. Giger" width="50%" height="50%">                    
+                    <li><b>1. Musée H.R. Giger</b></li>
+                    <p>
+                        The Saint-Germain castle, located in the centre of Gruyères' historic site, 
+                        features one of the world's oddest museums.
+                        <br>
+                        <br>
+                        The Château Saint-Germain, located in the centre of Gruyères' historic site, holds one of the world's oddest museums. 
+                        The exhibition, dedicated to the works of Swiss artist Hans Ruedi Giger (born 1940), transports viewers to a fascinating and terrifying science fiction environment. 
+                        The artist's private collection is housed in a huge room. Known for his futuristic creations, the Graubünden artist and illustrator 
+                        rose to prominence after taking part in the production of the film "Alien," for which he created the monster and won an Oscar in Hollywood in 1980.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/grandplace.jpg" id="imgfix" alt="Rodelbahn Rischli" width="50%" height="50%">
+                    <li><b>2. Grand-Places Park</b></li>
+                    <p>
+                        The Jean Tinguely fountain stands out in this beautiful oasis in the heart of Fribourg. 
+                        It was constructed in memory of his buddy and racing driver Jo Siffert by the current Fribourg artist.
+                        <br>
+                        <br>
+                        Jean Tinguely deserved the international acclaim he has achieved, and his works may be found in various European 
+                        capitals and significant cities.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/restaurantplan.jpg" id="imgfix" alt="Restaurant Plan Francey" width="50%" height="50%">
+                    <li><b>3. Restaurant Plan Francey</b></li>
+                    <p>
+                        Our wood-paneled business, which was rebuilt in spring 2017, provides hikers and skiers regional cuisine: 
+                        we serve local Gruyere dishes, 
+                        burgers, vegetarian dishes, and a variety of daily specialties at 1,520 metres above sea level.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/golf.jpg" id="imgfix" alt="Urban Golf Downtown Fribourg" width="50%" height="50%">
+                    <li><b>4. Urban Golf Downtown Fribourg</b></li>
+                    <p>
+                        A 9-hole or 18-hole golf course that takes you through Fribourg's interesting old town. Combine athletics and entertainment while 
+                        learning about the history of one of Switzerland's most stunning mediaeval towns.
+                        <br>
+                        <br>
+                        Fribourg's Urban Golf: an exciting activity similar to minigolf and swingolf, excellent for parties or families. 
+                        The game is simple: point out, shoot, and tatlize the least shots with a 3-faced golf club, a ball, 
+                        and a road map in your hand.
+                    </p>
+                    
+                    <img src="images/oversea1/gorges.jpg" id="imgfix" alt="Gorges du Gottéron" width="50%" height="50%">
+                    <li><b>5. Gorges du Gottéron</b></li>
+                    <p>
+                        The Gottéron valley, whose dark side was so feared in the Middle Ages — legend had it that a dragon 
+                        dwelt there – housed both blacksmiths and millers. It was located just outside of town, on the right bank, 
+                        and was a perfect location for boisterous activities or those that required being close to a river without 
+                        bothering the neighbours. 
+                        It was in this valley that the Old Town's young people established Fribourg's first hockey club.
+                        <br>
+                        <br>
+                        The <strong>Place du Petit-Saint-Jean</strong> serves as the starting point for this circular trek. 
+                        Cross the Bern bridge, which was built in 1250 and has been restored on a regular basis since then. 
+                        Continue up the Rue des Forgerons, past the ramparts. The trail then follows the river into a wooded 
+                        avine. If you're lucky, you might spot the chamois that have made their home on the molasses cliffs. 
+                        Return to the Schürmatt farm, which stands on an open plateau, after visiting the historic Ameismühle mill. 
+                        The path goes on through farmland and woodlands. In Bourguillon, use the cantonal road for a few hundred metres to the footpath beside the mediaeval tower. 
+                        Cross the Bern bridge again at the Auberge de l'Ange to return to your starting point.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/mediaeval.jpg" id="imgfix" alt="Frÿburg 1606" width="50%" height="50%">
+                    <li><b>6. Frÿburg 1606 - Discovery tour of mediaeval Fribourg</b></li>
+                    <p>
+                        Fribourg's exceptional mediaeval splendour is attributed to the city's surviving walls and over 200 unique Gothic facades. 
+                        The old town, like an open-air museum, is best explored on foot.
+                        <br>
+                        <br>
+                        The Cathedral of Fribourg, with its breathtaking stained-glass windows, is a sight to behold. 
+                        It was dedicated to St. Nicholas and was built in phases beginning in 1283. 
+                        Its 74-metre-high tower provides a breathtaking panoramic view. 
+                        Fribourg's funiculaire is likewise well-known. The funicular, which connects the lower and upper parts 
+                        of the city, is powered by waste water. This thriving academic town is a cosmopolitan micro-metropolis. 
+                        Boutiques, antique shops, student cafes, 
+                        and eateries providing regional specialties along the narrow lanes.
+                    </p>
+                        <h4><b>Authentic Middle Ages</b></h4>
+                        <li>
+                            The "Frburg 1606" experience combines audio, film, and augmented reality to transport guests to 17th-century Fribourg. 
+                        The tour shows the bilingual city in a fresh and inventive light, 
+                        transporting you through space and time.
+                        </li>
+                        <li>
+                            Espace 1606 is the name of the most recent mediaeval attraction. 
+                            Fribourg may now be viewed as a 3D model thanks to this workshop. 
+                            The model is based on Martin Martini's 1606 city map. 
+                            The 52m2 model delves into the rich history of the city created by the Zähringen family. 
+                            The 14-metre-high city walls, as well as the more than 7,000 various elements, such as people, 
+                            buildings, trees, and bridges, will astound viewers. 
+                            It required 12 years of preparation and
+                        </li>
+                        <li>
+                            A visit to the city walls is a once-in-a-lifetime opportunity. 
+                            It demonstrates how well the fortifications of the ancient town have held up since the Middle Ages. 
+                            From April to October, there is no admission fee to see the city walls. 
+                        </li>
+                    <hr>
+                    <br><br>
+                </ul>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="oversea1.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+</script>

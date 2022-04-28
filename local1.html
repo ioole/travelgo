@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>            
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="genting">  
+                    <h2><u>Genting Highland</u></h2>
+                    <ul class="ghnav">
+                        <li><a href="local1.html">Genting Skytropolis Indoor Theme Park&nbsp;/</a></li>
+                        <li><a href="local1-2.html">Genting Skyworld Outdoor Theme Park</a></li>
+                    </ul>
+                    <!--https://www.canva.com/colors/color-palettes/?search=Green-->
+                    <table border="1" id="indoorintro">
+                        <tr>
+                            <th colspan="2">Genting Skytropolis Indoor Theme Park</th>                      
+                        </tr>
+                        <tr>
+                            <td>Experience more than 20 newly opened rides that spanned more than a total of <br>400,000 sqft
+                                at First World Plaza.
+                            </td>       
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="images/local1/indoormap.jpg" alt="Map of Indoor Theme Park" width="80%" height="80%" id="indoormap">    
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><p id="mapsrc">Map from Skytropolis Indoor Theme Park, updated 2020.</p></td>
+                        </tr>
+                    </table>
+                    <h3><u>Famous Rides featuring :-</u></h3>
+                    <table border="1" class="familyride" id="familyride">
+                        <tr>
+                            <th colspan="4">Kid Rides</th>
+                        </tr>
+                        <tr>
+                            <td>Jumping Spurs</td>
+                            <td>Chariot Cruise</td>
+                            <td>Skyscraper</td>
+                            <td>Tea Cups</td>
+                        </tr>
+                        <tr id="familyimg">
+                            <td><img src="images/local1/JumpingSpurs.jpg" alt="Jumping Spurs" width="80%" height="80%"></td>
+                            <td><img src="images/local1/Chariotcruise.jpg" alt="Chariot Cruise" width="90%" height="80%"></td>
+                            <td><img src="images/local1/Skyscraper.jpg" alt="Skyscraper" width="80%" height="80%"></td>
+                            <td><img src="images/local1/teacups.jpg" alt="Tea Cups" width="80%" height="80%"></td>
+                        </tr>                    
+                        <tr>
+                            <td>One Mini-jumping tower with slight drops and climbs for children.<br> 
+                                Parental supervision is required at all times.<br>
+                                Passngers must be between 92cm to 122cm in height to ride.</td>
+                            <td>Family flying cruise that goes around the park.<br>
+                                Passengers shorter than 110cm and taller than 195cm are not permitted to travel.<br> 
+                                Guests between 110 cm and 122 cm tall must be accompanied by 
+                                a supervising companion aged 16 or over with a valid ticket or wristband.</td>
+                            <td>Unique and beautiful ferris wheel that offers a magnificent view of the park itself.<br>
+                                Guests under 90 cm height are not allowed to ride.<br>
+                                Children between 90cm and 122cm  must be accompanied by a supervisor aged 16+ with 
+                                a valid wristband or ticket.</td>
+                            <td>Family-friendly oversized teacup with multiple twist and turn motions.<br>
+                                Guests under 105 cm tall are not allowed to travel.<br>
+                                Children between 105cm and 130cm  must be accompanied by a supervisor aged 16+ with 
+                                a valid wristband or ticket.</td>
+                        </tr>
+    
+                    </table>                
+                    <table border="1" id="adventureride">
+                        <tr>
+                            <th colspan="5">Adventure Rides</th>
+                        </tr>
+                        <tr>
+                            <td>Balloon Race</td>
+                            <td>Sky Towers</td>
+                            <td>Power Surge</td>
+                            <td>Music Express</td>
+                            <td>Space Cadets</td>
+                        </tr>
+                        <tr id="adventureimg">
+                            <td><img src="images/local1/balloonrace.jpg" alt="Balloon Race" width="80%" height="80%"></td>
+                            <td><img src="images/local1/skytowers.jpg" alt="Sky Towers" width="80%" height="80%"></td>
+                            <td><img src="images/local1/PowerSurge.jpg" alt="Power Surge" width="80%" height="120%"></td>
+                            <td><img src="images/local1/musicexpress.jpg" alt="Music Express" width="80%" height="80%"></td>
+                            <td><img src="images/local1/spacecadets.jpg" alt="Space Cadets" width="80%" height="80%"></td>
+                        </tr>                    
+                        <tr>
+                            <td>Family balloon ride with multiple quick and twisting movements.<br>
+                                Passengers under 80 cm tall are not allowed to travel.<br>
+                                Children between 80cm and 122cm must be accompanied by 
+                                a supervisor aged 16 years or older with a valid wristband or ticket.</td>
+                            <td>Unique drop-tower ride that pummels at a major velocity.<br> 
+                                Guests under 105 cm tall are not allowed to travel.<br>
+                                Children between 105cm and 122cm must be accompanied by 
+                                a supervisor aged 16 years or older with a valid wristband or ticket.</td>
+                            <td>High-flying and intense ride with wild spinning and upside-down motions.<br> 
+                                Guests under 122cm height are not allowed to ride.</td>
+                            <td>Fast spinning turbulent ride fitted with powerful surge, twirl and whirl, sudden slopes and backward motion.<br>
+                                Guests under 130cm tall are restricted from riding.<br>
+                                Children that are between 130cm and 140cm in height must be supervised 
+                                by a 16 year old or above with a valid wristband or ticket.</td>
+                            <td>Family ride with controllable flying motions.<br>
+                                Guests under 80cm height are not permitted to ride.<br>
+                                Children between 80cm and 122cm in height must be must be supervised 
+                                by a 16 year old or above with a valid wristband or ticket.</td>
+                        </tr>
+    
+                    </table>
+                    <table border="1" id="thrillride">
+                        <tr>
+                            <th colspan="3">Thrilling Rides</th>
+                        </tr>
+                        <tr>
+                            <td>Disco!</td>
+                            <td>Super Glider</td>
+                            <td>Spin Crazy</td>
+                        </tr>
+                        <tr id="thrillimg">
+                            <td><img src="images/local1/disco!.jpg" alt="Disco!" width="80%" height="80%"></td>
+                            <td><img src="images/local1/SuperGlider.jpg" alt="Super Glider" width="80%" height="80%"></td>
+                            <td><img src="images/local1/spincrazy.jpg" alt="Spin Crazy" width="80%" height="80%"></td>
+                        </tr>
+                        <tr>
+                            <td>Huge rotating disc that moves with increasing speed, swinging back and forth while spinning.<br> 
+                                Children under 122 cm tall are not allowed to ride. </td>
+                            <td>Giant rotating pendulum with 360 degree spins in the air.<br>
+                                Guests shorter than 130 cm and taller than 195 cm are not allowed to travel.</td>
+                            <td>Suspended roller coaster with sharp turns, turns and<br>
+                                sudden drops that is not for the faint-hearted</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="destination.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+    
+
+</script>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body style="background-color:snow;">
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>   
+                <h1>TravelGo</h1>          
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div class="faqcontainer">
+                    <img src="images/faq.jpg" alt="">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                
+                <button class="accordion">How do we book in <strong>TravelGo</strong>?</button>
+                <div class="panel faq1">
+                    <p>
+                        Guests can refer to the booking page and choose a destination to go,
+                        we will provide a perfect schedule based on
+                        our guests' likings.
+                    </p>
+                </div>
+                <button class="accordion">Why does <strong>TravelGo</strong> need my email and phone number?</button>
+                <div class="panel faq2">
+                    <p>
+                        The reason why we require the email and phone of our guests is to verify and 
+                        send any further notices.<br><br>
+                        Do not worry as <strong>TravelGo</strong> prioritise data privacy.
+                    </p>
+                </div>
+                <button class="accordion">How much destinations does <strong>TravelGo</strong> offer?</button>
+                <div class="panel faq3">
+                    <p>
+                       We are only offering up to 8 destinations for our guests at this moment.
+                    </p>
+                </div>
+                <button class="accordion">How to ensure our trips are booked correctly?</button>
+                <div class="panel faq4">
+                    <p>
+                        Guests may reach out to our customer service or email to our customer service providing
+                        information about the trip and further inquires.
+                    </p>
+                </div>
+                <button class="accordion">Is <strong>TravelGo</strong> safe?</button>
+                <div class="panel faq5">
+                    <p>
+                        Yes, <strong>TravelGo</strong> is licensed under Travel Operating Business and Travel (TOBTAB).
+                        <br><br>
+                        <ul>
+                            <li>Company Registration Number: <strong>1234-T</strong></li>
+                            <li>Tourism License:  <strong>KPL/LN 1234</strong></li>
+                        </ul>
+                    </p>
+                </div>
+                <button class="accordion">What to do if there are last minute changes?</button>
+                <div class="panel faq6">
+                    <p>
+                        Please reach out to our customer services, they will assist our guests competently.
+                        <ul>
+                            <li><a href="tel: +6018-888-8888">&#9990;&nbsp;TravelGo Service Number</a></li>
+                            <li><a href="mailto:travelgo@gmail.com">&#128231;&nbsp;TravelGo Service Email</a></li>
+                         </ul>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="account.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    var acc = document.getElementsByClassName("accordion");
+    var j;
+
+    for (j=0; j<acc.length; j++) {
+
+        acc[j].addEventListener("click", function() {
+
+            this.classList.toggle("panelactive");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+
+                panel.style.maxHeight = null;
+
+            }else{
+
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+</script>

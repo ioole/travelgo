@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body style="background-color: #ffe4e2;">
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>      
+                <h1>TravelGo</h1>
+                           
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div class="greetingabout">
+                    <img src="images/about/aboutimage3.jpg" class="aboutimg" alt="About Image" width="100%" height="300px">
+                    <h1 class="abouth1">About us</h1>
+                </div>
+                <div class="aboutcontainer">
+                    <div class="aboutrow">
+                        <div class="aboutcolumn">
+                            <div id="contentabout">
+                                <p>
+                                    <strong>TravelGo</strong> was founded in 2022. We offer 24/7 customer assistance for locals and foreigners, 
+                                    as well as 40 distinct local payment options, both online and offline.
+                                    <strong>TravelGo</strong> is a major participant in the lifestyle sector, with reservations for varieties of local sites and activities, 
+                                    as well as gourmet directories. 
+                                    <strong>TravelGo</strong> also offers finance, payment, and insurance options for the underbanked through our 
+                                    Financial Services products to help consumers manage their different financial pain points in their Travel & 
+                                    Lifestyle journey.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column33">
+                            <img class="about_image" src="images/about/aboutimage4.jpg" alt="Travel Image" width="100%" height="100%">
+                        </div>
+                    </div>           
+                </div>
+                <div class="aboutcontainer" style="background-color:#d4d1cf">
+                    <div class="aboutrow">
+                        <div class="column33">
+                            <img class="about_image2" src="images/about/malaysia.jpg" alt="Travel Image" width="100%" height="100%">
+                        </div>
+                        <div class="aboutcolumn">                    
+                            <div id="contentabout">
+                                <ul>
+                                    <h3>Objectives :</h3><br>
+                                    <li>Providing access for users to discover and purchase lifestyle activities</li>
+                                    <li>
+                                        Portfolio that includes transport booking services 
+                                        such as flight tickets as well as access to the largest 
+                                        accommodation inventory in Southeast Asia
+                                    </li>
+                                    <li>Provide information on travelling</li>
+                                </ul>                              
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+        
+                <div class="aboutcontainer">
+                    <div class="aboutrow">
+                        <div class="aboutcolumn">                    
+                            <div id="contentabout">
+                                <p>
+                                    <strong>TravelGo</strong> is here to enrich your daily lives with the integrated offerings 
+                                    in a single platform that span travel, local services, and financial services.
+                                    <strong>TravelGo</strong> began as an online flight and have since expanded to give a variety of 
+                                    packages (and counting), allowing millions of customers to have seamless access 
+                                    to their travel, local services, and financial needs, enriching their experiences. 
+                                </p>
+                            </div>
+                        </div>                
+                        <div class="column33">
+                            <img class="about_image2" src="images/about/aboutimage5.jpg" alt="Travel Image" width="100%" height="100%">
+                        </div>
+                    </div>           
+                </div>
+                <div class="aboutcontainer" style="background-color:#d4d1cf">
+                    <div class="aboutrow">
+                        <div class="column33">
+                            <img class="about_image3" src="images/about/aboutimage6.jpg" alt="Travel" width="100%" height="100%">
+                        </div>
+                        <div class="aboutcolumn">                    
+                            <div id="contentabout">
+                                <p>
+                                    <strong>TravelGo</strong> is quickly becoming Southeast Asia's most popular travel
+                                    and lifestyle booking app. The road is far from ended now that <strong>TravelGo</strong> is poised to expand and 
+                                    help everyone around the world achieve their lifestyle goals through ongoing innovation.
+                                </p>
+                                <button class="destinationbtn" onclick="nextWeb()">Browse Destinations</button>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    function nextWeb(){
+        window.location.replace("destination.html");
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+</script>

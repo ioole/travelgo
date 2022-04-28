@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>
+             </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="melaka-container">
+                    <h1>Melaka</h1>
+                </div>
+                <div id="melaka">
+                    <ol>
+                        <li>Dutch Square</li>
+                        <img src="images/local2/dutchsquare.jpg" alt="Dutch Square Melaka">
+                        <p>The Dutch Square of Melaka is located in Bandar Hilir and is the most famous landmark. The square is surrounded by buildings painted in red, which gives rise to its popular name Red Square. One of the most picturesque points of Malacca, the most prominent building of Dutch Square is Stadthuys.</p>
+                        <p><b>Operating Hours:</b>
+                            <ul>
+                                <li>Monday to Friday: 10:00am-9:00pm</li>
+                                <li>Sunday: 12:30pm-6:00pm</li>
+                            </ul></p>
+                        <p><b>Price:</b> Free</p>
+                        
+
+                        <li>Christ Church Melaka</li>
+                        <img src="images/local2/christchurch.jpg" alt="Christ Church Melaka">
+                        <p>Like most buildings in the Dutch Square, Christ Church is built to Dutch standards. It has tall, massive walls and columns, a rectangular plan, Dutch roof tiles and granite plinths, all of which are said to be features of 18th Century Dutch colonial architecture. The church is 25 meters long (some say 27) and 13 meters wide, and its ceiling is 12.2 meters from the ground. Wooden beams, said to be cut from a single tree, span the ceiling. The floors are covered with granite blocks and its walls raised with Dutch bricks.</p>
+                        <p><b>Operating Hours:</b>
+                        <ul>
+                        <li>Monday to Friday: 9:00am - 4:30pm</li>
+                        <li>Sunday: 8:30am - 1:00pm</li>
+                        </ul></p>
+                        <p><b>Price:</b> Free</p>
+                        
+                        <li>Stadthuys</li>
+                        <img src="images/local2/stadthuys.png" alt="Stadthuys">
+                        <p>Stadthuys is known as the oldest surviving Dutch building in the East, located at the Red Square area of Melaka. Spread over an area of 49,200 square feet, the iconic red terracotta building once served as the official residence of the Dutch governor and officers. It now houses the History and Ethnography Museum showcasing Malaccan culture and traditions.</p>
+                        <p><b>Operating Hours:</b> Open daily 9:00am-5:30pm</p>
+                        <p><b>Entrance Fee:</b>
+                            <ul>
+                                <li>Adult: RM5.00</li>
+                                <li>Child: RM2.00</li>
+                            </ul></p>
+                        
+                        <li>A'Famosa</li>
+                        <img src="images/local2/afamosa.jpg" alt="A'Famosa">
+                        <p>A former Portuguese Fortress, A Famosa is among the oldest surviving European architectural remains in Southeast Asia. One of Malacca's famous sightseeing spots, the only remaining part of the fortress is a small gate house, known as Porta de Santiago.</p>
+                        <p>A Famosa ruins is a wonderful spot for photography lovers, who can capture some stunning images of this crumbling structure. History lovers would be interested to note that A'Famosa was once home to an entire lot of the Portuguese administrative officials.</p>
+                        <p><b>Operating Hours:</b> 24-hours</p>
+                        <p><b>Best time to visit:</b> 9:00am-4:00pm</p>
+                        <p><b>Price:</b> Free</p>
+
+                        <li>Melaka River</li>
+                        <img src="images/local2/melakariver.jpg" alt="Melaka River">
+                        <p>The clear and narrow Melaka River flows through the middle of Melaka city from Negeri Sembilan feeding the Straits of Melaka. Dubbed as the 'Venice of the East', it is visited by the tourists for the 45-minute Melaka River Cruise offering stunning view of traditional shophouses, colonial buildings and ancient settlements.</p>
+                        <p>On both sides of the Melaka River are food joints and shops for a pleasant walk around the river and beautiful paintings drawn on the buildings, providing a contemporary look. The best time to visit is during dusk when the surroundings glow with colourful decorations and lights.</p>
+                        <p><strong>Activity: Melaka River Cruise</strong></p>
+                        <img src="images/local2/cruise.jpg" alt="Melaka River Cruise">
+                        <p><div><b>Hightlights:</b></div>Take a ride up the river and enjoy a different angle of Malacca.Choose between two boarding ports either up the river or down the river.Enjoy the beautifully painted murals, local arts, and the river side bars.Take memorable pictures of the vibrant city of Malacca.</p>
+                        <p><b>Operating Hours:</b> Open daily 9:00am-11:00pm</p>
+                        <table id="ticket">
+                            <tr>
+                                <th colspan="2">Ticket Fee</th>
+                            </tr>
+                            <tr>
+                                <th>Local (MyKad holder)</th>
+                                <th>Price/Pax</th>
+                            </tr>
+                            <tr>
+                                <td>Adult(12 years old and above)</td>
+                                <td>RM25.00</td>
+                            </tr>
+                            <tr>
+                                <td>Child(2-12 years old)</td>
+                                <td>RM15.00</td>
+                            </tr>
+                            <tr>
+                                <td>Malaysian Disabled (Adult)</td>
+                                <td>RM15.00</td>
+                            </tr>
+                            <tr>
+                                <td>Malaysian Disabled (Child)</td>
+                                <td>RM10.00</td>
+                            </tr>
+                            <tr>
+                                <td>Malaysian Senior Citizen (60 years old and above)</td>
+                                <td>RM20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Malaysian Senior Citizen (70 years old and above)</td>
+                                <td>RM10.00</td>
+                            </tr>
+                            <tr>
+                                <td>IPTA/IPTS Student(in Malaysia only/with Student ID Card)</td>
+                                <td>RM20.00</td>
+                            </tr>
+                            <tr>
+                                <td>Infant (Below 2 years old)</td>
+                                <td>Free</td>
+                            </tr>
+                            <tr>
+                                <th>Foreigner (Non-MyKad holder)</th>
+                                <th>Price/Pax</th>
+                            </tr>
+                            <tr>
+                                <td>Adult(12 years old and above)</td>
+                                <td>RM30.00</td>
+                            </tr>
+                            <tr>
+                                <td>Child(2-12 years old)</td>
+                                <td>RM25.00</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <li>Jonker Street</li>
+                        <figure>
+                            <img src="images/local2/jonkerstreet2.png" alt="Jonker Street"> &nbsp;
+                            <figcaption>Jonker Street Shop</figcaption><br>
+                            <img src="images/local2/nightmarket.png" alt="Jonker Street Night Market">
+                            <figcaption>Jonker Street Night Market</figcaption>
+                        </figure>
+                        <p>Jonker Street, also popular as the Jonker Walk, is the main street of Chinatown, Melaka. It is popular for the shops selling clothes, antiques and souvenirs, apart from being a major street food hub. The highlight of Jonker Street is the night market held here every Saturday and Sunday.</p>
+                        <p>The bustling Jonker Street is not just about delicious food, artistic creations and bargaining, but it also has a number of attractions in and around it. The numerous museums, temples and mosques, each of them drawing inspiration from all around the world give the visitors the perfect reason to not miss out on them. Jonker Street truly depicts the fast, jolly and rich cultural life of Malaysia and forms a smooth knot between the ancient traditions and modern technology.</p>
+                        <p><b>Operating Hours:</b> Jonker street shop is open daily, night market is only available on Friday, Saturday and Sunday.</p>
+
+                        <li>Cheng Ho Cultural Museum</li>
+                        <img src="images/local2/museum.jpg" alt="Cheng Ho Cultural Museum">
+                        <p>A must-visit for history buffs, Cheng Ho Cultural Museum is the largest museum in Malacca, located to the north of Melaka River. The museum features historical items, information and details about Zheng He's (Cheng Ho) life and explorations, a Chinese Ming Dynasty admiral.</p>
+                        <p>With the fascinating cultural relics, a creative puppet show and a beautiful garden courtyard, the museum exude a quaint vibe. Visit the museum for the Chinese architecture of the shophouses it is housed in, replete with swaying lanterns and pearl furnishings. Cheng Ho Cultural Museum's gift shop is popular for its Chinese tea, Malaysian white coffee and durian souvenirs.</p>
+                        <p><b>Operating Hours:</b> Open daily 9:30am-6:00pm</p>
+                        <p><b>Entrance Fee:</b>
+                            <ul>
+                                <li>Adult-RM20.00</li>
+                                <li>Child(Below age 12)-RM10.00</li>
+                            </ul></p>
+                    </ol>
+                </div>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="destination.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+    
+</script>

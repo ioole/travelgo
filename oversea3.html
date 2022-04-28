@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>            
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="korea-container">
+                    <h1>Korea</h1>
+                </div>
+                <div id="korea">
+                    <ol>
+                        <li>Changdeokgung Palace</li>
+                        <img src="images/oversea3/palacekorea.jpg" alt="Palace">
+                        <p>Of the five grand palaces built by the Joseon Dyantasy in the 15th century around Seoul,
+                        Changdeokgung Palace was always the preferred royal residence. It's where the king and 
+                        royal family lived their daily lives.</p>
+                        <p>The palace isn't just a single building, it's a complex of buildings, and each served a
+                        different purpose. Some are accommodations, some are libraries, dining rooms, and meeting
+                        rooms, among other uses. Be sure to spend some time in the 78-acre Huwon, or palace garden, 
+                        located behind the palace. It's filled with pathways, green spaces, pagodas, streams and lakes.</p> 
+
+                        <p><b>Closed:</b> Mondays</p>
+                        <p><b>Ages Limit for Activities:</b> Open to visitors of all ages</p>
+                        
+                        <b>Operating Hours:</b>
+                        <ul>
+                            <li>Feb-May, Sep-Oct : 09:00am - 06:00pm</li>
+                            <li>Jun-Aug : 09:00am - 06:30pm</li>
+                            <li>Nov-Jan : 09:00am -05:30pm</li>
+                        </ul>
+                        * Last admission: 1 hour before closing
+                        
+                        <p><b>Parking Facilities:</b> Available </p>
+                        
+                        <p><b>Admission Fees:</b> Adults (ages 25-64) 3,000 won / Group (over 10 people) 2,400 won</p>
+                        
+                        <p><b>Interperation Services Offered:</b> English, Janpanese, Chinese</p>
+                    
+                        <li>Busan</li>
+                        <img src="images/oversea3/busankorea.jpg" alt="Busan">
+                        <p>Busan is the second largest city in the country, and its coast is lined with some beautiful
+                        beaches and resorts. There's a lot of culture and history here, too. Be sure to visit the
+                        <em>Beomeosa Temple</em> and the hillside village of Gamecheon. Gamecheon is a European-style village
+                        on the cliffs above the sea, like Korea's version of Santorini.</p>
+                        
+                        <p>Seafood lovers should be sure to visit <em>Jagalchi Market</em>, the country's largest commercial 
+                        seafood market. Part of the market is open to consumers, and there are many small restaurants
+                        that will cook up your purchase, so you can eat it right here.</p>
+                        
+                        <li>Beomeosa Temple</li>
+                        <img src="images/oversea3/templekorea.jpg" alt="Temple">
+                        <p>Beomeosa Temple is located at the edge of Mt. Geumjeongsan, a famous mountain in Busan. 
+                        About 1,300 years ago it was constructed by monk Ui Sang in the 18th year (678) of King
+                        Munmu (reign 661~681) of the Silla Kingdom (the kingdom mainly occupied the Gyeongsang-do
+                        Province region in 678A.D.).</p>
+                                
+                        <p><b>location:</b> 546, Cheongryong-dong, Geumjeong-gu, Busan-si</p>
+                        
+                        <p><b>Interperation Services Offered:</b> English</p>
+                        
+                        <li>Jagalchi Fish Market</li>
+                        <img src="images/oversea3/marketkorea.jpg" alt="Market">
+                        <p>Jagalchi Fish Market is the largest seafood market in South Korea, selling both live 
+                        and dried seafood. This market represents Busan and is famous throughout the country.</p> 
+                        <p>Visitors can eat fresh raw fish right at the market. Even nowadays visitors can see
+                        women selling mackerel, sea squirts (ascidians) and whale meat on wooden boxes along
+                        the road outside of the market and along the shore.</p>
+                        
+                        <p><b>Location:</b> 52, Jagalchihaean-ro, Jung-gu, Busan</p>
+                        
+                        <p><b>Open Time:</b> 05:00am - 10:00pm</p>
+                        
+                        <p><b>restdateshopping:</b> First and third Tuesday of every month</p>
+                        
+                        <p><b>salesitem:</b> Fresh fish, dried fish, hoe center, etc</p>
+                        
+                        <li>Jeju Islands</li>
+                        <img src="images/oversea3/jejukorea.jpg" alt="Island">
+                        <p>Jeju Island, also known as the "Island of the Gods," is a popular vacation spot for Koreans and foreigners. It remains the top honeymoon destination for Korean newlyweds. Despite attempts to market the island as "the Hawaii of Korea," climatologically and geographically it bears little in similarity to the Hawaiian Islands in the U.S. The island offers visitors a wide range of activities: hiking on <em>Halla-san</em> (South Korea's highest peak) or Olle-Gil (routes), catching sunrises and sunsets over the ocean, riding horses, touring all the locales from a favorite television K-drama, or just lying around on the sandy beaches.</p>
+        
+                        <li>Hallasan Mountain</li>
+                        <img src="images/oversea3/mountainkorea.jpg" alt="Moutain">
+                        <p>Hallasan Mountain, the highest mountain in Korea at 1,950 metres above sea level, is a must-visit entry on your Jeju itinerary. See the mysterious Baeknokdam and the majestic Hallasan Mountain's unique 4-season beauty. Hallasan Mountain&rsquo;s trails connect Gwaneumsa Temple and Seongpanak to the top of Baeknokdam, and Yeongsil, Eorimok, and Donnaeko to Witseoreum and South Wall Junction.</p>
+                                
+                        <p>Each trail&rsquo;s topography has a different degree of difficulty and length so choose the one that matches your physical strength. Access to some sections may be restricted depending on the season and weather, so please check the visitor information on the National Park website when planning your visit.</p>
+                            
+                        <p><b>Good for:</b> Couples&nbsp;&nbsp;Photo&nbsp;&nbsp;Adventure&nbsp;&nbsp;Single&nbsp;&nbsp;Group</p>
+                        
+                        <p><b>Opening Hours:</b>
+                        <ul>
+                            <li>Winter &ndash; 9:00am- 1:00pm</li>
+                            <li>Spring and Fall &ndash;9:30 am </li>
+                            <li>Summer &ndash; 10:00am</li>
+                        </ul></p>
+                        <p><b>Ticket to visit Mount Hallasan:</b> FREE</p>
+                        <p><b>Camping fee:</b>
+                        <ul>
+                            <li>Small (for 3 people or less): 3,000 won</li>
+                            <li>Medium (for 4-9 people): 4,500 won</li>
+                            <li>Large (10 people or more): 6,000 won</li>
+                        </ul></p>
+                        <p><b>Parking fee:</b>
+                        <ul>
+                            <li>Two-wheel vehicles 500 won</li>
+                            <li>Compact cars (under 1,000 cc) 1,000 won</li>
+                        </ul></p>
+                        
+                        <li>Jeju Stone Park</li>
+                        <img src="images/oversea3/parkkorea.jpg" alt="Park">
+                        <p>The Jeju Stone Park is an ecological hub that uses local volcanic stones to evoke 
+                        the island's history and mythology. Sculptures scattered around the park depict 
+                        various roles like guarding tombs, protecting the house, and repelling evil and 
+                        misfortune. There's also a beautiful stone pagoda, a pond and a section of forest 
+                        filled with sculptures, which add to the mystical atmosphere.</p>
+                                
+                        <p>The Jeju Stone Park has a museum that displays sculptures and carvings, as well 
+                        as various examples of folk crafts from all over the island. A must-see is its 
+                        exhibition about Jeju's different myths and folk tales. You can also visit a 
+                        traditional Jeju Island house, which has stone pillars and a thatched roof.</p>
+            
+                        <p><b>Good for:</b> Family&nbsp;&nbsp;History&nbsp;&nbsp;Photo</p>
+                        <p><b>Location:</b> 2023 Namjo-ro, Jochon-eup, Jeju-si, Jeju-do, South Korea</p>
+                        <p><b>Opening Hours:</b >Tuesday&ndash;Sunday from 9 am to 6 pm (closed on Mondays)</p>
+                        <p><b>Ticket fee:</b>
+                        <ul>
+                            <li>Adults: 4000 Won</li>
+                        </ul></p>
+                    </ol>
+                </div>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div> 
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft = "20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display = "none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display = "inline-block";
+    }
+    
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="destination.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+</script>

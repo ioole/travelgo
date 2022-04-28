@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>   
+                <h1>TravelGo</h1>                          
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+                <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="pricecontainer">
+                    <img src="images/about/aboutimage1.jpg" alt="Price">
+                    <h2>Pricing</h2>
+                </div><br>
+                <div class="pricecontent">
+                    <table border="1">
+                        <tr class="localprice price1">
+                            <th>Local Destinations</th>
+                            <th colspan="2">Price</th>
+                        </tr>
+                        <tr class="localprice price2">
+                            <td>Genting Highland</td>
+                            <td>RM300 per person for <strong>Indoor</strong><br> RM500 per person for <strong>Outdoor</strong></td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="localprice price3">
+                            <td>Melaka</td>
+                            <td>RM600 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="localprice price4">
+                            <td>Ipoh</td>
+                            <td>RM450 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="localprice price5">
+                            <td>Langkawi</td>
+                            <td>RM900 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pricecontent">
+                    <table border="1">
+                        <tr class="overseaprice price11">
+                            <th>Oversea Destinations</th>
+                            <th colspan="2">Price</th>
+                        </tr>
+                        <tr class="overseaprice price12">
+                            <td>Switzerland</td>
+                            <td>RM12,000 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="overseaprice price13">
+                            <td>Thailand</td>
+                            <td>RM5000 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="overseaprice price14">
+                            <td>Korea</td>
+                            <td>RM4500 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                        <tr class="overseaprice price15">
+                            <td>Japan</td>
+                            <td>RM7000 per person</td>
+                            <td><button id="btnprice" onclick="book()">Book Here</button></td>
+                        </tr>
+                    </table>
+                    <figcaption>Price updated 2022. 15/4/2022</figcaption>
+                </div>
+                
+
+            </div>
+        </main>
+    </body>
+    <footer class="homefooter">
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>                    
+    
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+
+    }
+
+    function book(){
+
+        window.location.href = 'booking.html';
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+
+    }
+
+
+
+</script>

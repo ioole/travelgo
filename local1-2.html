@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>            
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="genting">
+
+                    <h2><u>Genting Highland</u></h2>
+                    <ul class="ghnav">
+                        <li><a href="local1.html">Genting Skytropolis Indoor Theme Park&nbsp;/</a></li>
+                        <li><a href="local1-2.html">Genting Skyworld Outdoor Theme Park</a></li>
+                    </ul>
+    
+                    <table border="1" id="outdoorintro">
+                        <tr>
+                            <th colspan="2">Genting Skytropolis Outdoor Theme Park</th>                      
+                        </tr>
+                        <tr>
+                            <td>Experience newly opened rides, attractions or entertainment ranging from fun to
+                                thrill as you go on!
+                            </td>       
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <th>
+                                <img src="images/local1/outdoormap.jpg" id="outdoormap" alt="Map of Outdoor Theme Park" width="80%" height="80%">
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><p id="outdoorsrc">Map from Skytropolis Outdoor Theme Park, updated 2022</p></td>
+                        </tr>
+                    </table>
+                    <h3>Honourable mentioned attractions :-</h3>
+                    <table border="1" id="rio">
+                        <tr>
+                            <th colspan="4">RIO</th>
+                        </tr>
+                        <tr id="riodesc">
+                            <td colspan="4">
+                                In <em>Rio</em>, it's a summer party, all day, every day, every week and every year!<br>
+                                Waltz through the bustling neighbourhood of <strong>Santa Teresa</strong> where the air is
+                                filled with fun, excitement and most importantly samba music!<br>
+                                Colourful facades? Hang Glider? We have it all here.<br>
+                                Join in on the lively atmosphere as the carnaval swings into action for a spectacularly wonderful party to remember!
+                            </td>
+                        </tr>
+                        <tr id="rioimg">
+                            <td colspan="4">
+                                <img src="images/local1/rio.png" alt="Rio" width="80%" height="80%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Samba Gliders</td>
+                            <td>Samba Urbana</td>
+                            <td>Santa Teresa Trolly Treats</td>
+                            <td>Carnaval Jagos E Premios</td>
+                        </tr>
+                        <tr id="centerimg">
+                            <td><img src="images/local1/sambagliders.jpg" alt="Samba Gliders" width="80%" height="80%"></td>
+                            <td><img src="images/local1/sambaurbana.jpg" alt="Samba Urbana" width="80%" height="80%"></td>
+                            <td><img src="images/local1/santateresa.jpg" alt="Santa Teresa" width="80%" height="80%"></td>
+                            <td><img src="images/local1/hookaduck.jpg" alt="Carnaval Jagos E Premios" width="80%" height="80%"></td>
+                        </tr>
+                        <tr>
+                            <td>Take off to view sights from 65-feet above on this daring hang glider providing you 
+                                an ultimate bird's eye view of every little corner on <em>Rio</em></td>
+                            <td>Let the rhythm flow! Hear the music play!<br>
+                                One of the sizzling stage performance of Rio's best talents as Rio invites you to put forth your best shimmy of moves!</td>
+                            <td>Bite into juicy soft-shell tacos filled with meats and veggies at <strong>Santa Teresa Trolley Treats!</strong><br>
+                                One of the perfect pit stop as you make your way through the amazing Carnaval!</td>
+                            <td>Up for fun and games? Well, welcome here as Rio provides games such as<br>
+                                Pyramid Squash where it tests your throwing skills, rebound where accuracy and strength comes into play or
+                                Hook a Duck, where it tests your luck on hooking ducks</td>
+                        </tr>
+                    </table>
+    
+                    <table border="1" id="iceage">
+                        <tr>
+                            <th colspan="5">Ice Age</th>
+                        </tr>
+                        <tr id="iceagedesc">
+                            <td colspan="5">
+                                One of the most fun pre-historic adventure filled with attractions inspired by the globally recognized franchise, 
+                                <strong>Ice Age</strong>!<br> 
+                                Experience mammoth-sized fun for everyone in the family!
+                            </td>
+                        </tr>
+                        <tr id="iceageimg">
+                            <td colspan="5">
+                                <img src="images/local1/iceage.png" alt="Rio" width="80%" height="80%">
+                            </td>
+                        </tr>                    
+                        <tr>
+                            <td>Sid's Rock 'N' Slide</td>
+                            <td>Mammoth Fun Zone</td>
+                            <td>Ice Age: Time Warp</td>
+                            <td>Buck's Cafe</td>
+                            <td>Cavern Treasures</td>
+                        </tr>
+                        <tr id="centerimg">
+                            <td><img src="images/local1/sidrocknslide.jpg" alt="Sid's Rock 'N' Slide" width="80%" height="80%"></td>
+                            <td><img src="images/local1/mammothfunzonejpg.jpg" alt="Mammoth Fun Zone" width="80%" height="80%"></td>
+                            <td><img src="images/local1/iceagetimewarp.jpg" alt="Ice Age: Time Warp" width="80%" height="80%"></td>
+                            <td><img src="images/local1/buckscafe.jpg" alt="Buck's Cafe" width="80%" height="80%"></td>
+                            <td><img src="images/local1/cavernadventure.jpg" alt="Cavern Treasures" width="80%" height="80%"></td>
+                        </tr>
+                        <tr>
+                            <td>Come on INN! Unique <strong>Adventure</strong> led by <strong>Sid</strong> and 
+                                <strong>Diego</strong> on this 
+                                motion-filled ride, everyone is waiting!<br>
+                                Children under 100cm to 122cm height is in need of supervision.
+                            </td>
+                            <td><em>Why Hello There!</em> 
+                                Set sail on <strong>Captain Gutt's</strong> Pirate Ship and react fast to avoid 
+                                getting drenched by something unknown!<br>
+                                One of a kind playground that is sure to bring in excitement for high-energy little explorers!<br>
+                                Passengers who are 90cm to 150cm of height requires supervision.
+                            </td>
+                            <td>In a minor Scrat-tastrophe, from the blizzardy cold of the entire Ice Age characters was transported all the way to Genting SkyWorlds!<br> 
+                                What adventures awaits them here?</td>
+                            <td>Enjoy the spread of Western and Asian cuisine at here, Buck's Cafe!</td>
+                            <td>In need of items that can bring us long-lasting memories? Well
+                                find all things of Ice Age, including fan-favorite plush, 
+                                fashion apparel and unique mementos to remember your exciting adventure located at the Acorn Mountains!</td>
+                        </tr>
+                    </table>
+    
+                    <table border="1" id="centralpark">
+                        <tr>
+                            <th colspan="5">Central Park</th>
+                        </tr>
+                        <tr id="centralparkdesc">
+                            <td colspan="5">
+                                Welcome! Roll-up at this newly-made town square to have a taste at special offerings like
+                                world-class attractions, dining, retail and live entertainment.<br>
+                                Does not matter if it is a visit to the Natural History Museum or the special fountain performance at the 
+                                Lake of Dreams, <strong>Central Park</strong> is where fun, excitement and long-lasting moments meet.
+                            </td>
+                        </tr>
+                        <tr id="centralparkimg">
+                            <td colspan="5">
+                                <img src="images/local1/centralpark.png" alt="Central Park" width="80%" height="80%">
+                            </td>                   
+                        <tr>
+                            <td>Independence Day: Defiance</td>
+                            <td>Central Park Gardens</td>
+                            <td>Lake of Dreams</td>
+                            <td>Harry Ramsden World Famous Fish & Chip</td>
+                            <td>Galaxy Store</td>
+                        </tr>
+                        <tr id="centerimg">
+                            <td><img src="images/local1/independenceday.jpg" alt="Independence Day: Defiance" width="80%" height="80%"></td>
+                            <td><img src="images/local1/centralparkgardens.jpg" alt="Central Park Gardens" width="80%" height="80%"></td>
+                            <td><img src="images/local1/lakeofdreams.jpg" alt="Lake of Dreams" width="80%" height="80%"></td>
+                            <td><img src="images/local1/harryramsden.jpg" alt="Harry Ramsden World Famous Fish & Chip" width="80%" height="80%"></td>
+                            <td><img src="images/local1/galaxystore.jpg" alt="Galaxy Store" width="80%" height="80%"></td>
+                        </tr>                    
+                        <tr>
+                            <td>The long awaited alien invasion has arrived, it is time to defend Earth! Recruits! It is time to 
+                                gear up and be prepared to take part in an exhilarating space mission.</td>
+                            <td>Stroll around this charming garden while you enjoy the greenery and breeze.</td>
+                            <td>One of a special fountain show you will ever witness.<br> 
+                                Do not miss out on this spectacular show while you unwind your family & friends.</td>
+                            <td>Come on down to taste the finest food among them all. 
+                                What is more British than a good ol' chip from the shops.<br>
+                                Introducing..
+                                world-renowned <strong>Harry Ramsden famous Fish & Chips</strong>, 
+                                one plate of fish and chips can be authentic as it gets.<br>
+                                Have a taste from haddock or cod, with a side of chunky chips that will devour your taste buds.
+                            </td>
+                            <td>Want some keychains or bags? Well, Welcome to <strong>Galaxy Store</strong>!
+                                Discover a row of merchandises, 
+                                from bags and accessories to souvenirs and keepsakes for everyone!</td>
+                        </tr>                    
+                    </table>
+                </div>
+                <div>
+                    <div id="descontainer">
+                        <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                        <button onclick="book()" class="btnbook">Book</button>
+                    </div>
+                </div>                
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>                    
+    
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+    
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="destination.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+
+</script>

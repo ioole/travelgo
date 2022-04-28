@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>
+                           
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style=cursor:pointer; onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="reasonpilatus">
+                    <h3>Reason to visit Pilatus</h3>
+                </div>
+                <hr>
+                <ul type="none" id="textfix">
+                    <img src="images/oversea1/dragonride.jpg" id="imgfix" alt="Dragon Ride" width="50%" height="50%">
+                    <li><b>1. Ride the dragon to Mount Pilatus</b></li>
+                    <p>
+                        Technically, this dragon does not breathe fire..but it is indeed hot. Why is that?
+                        The “Dragon Ride” speeded to Pilatus Kulm from Fräkmüntegg straight around 
+                        over 2,132 m above sea level which is super high.
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/snowshoehiking.jpg" id="imgfix" alt="Snowshoe Hiking" width="50%" height="50%">
+                    <li><b>2. Snowshoe hiking on Pilatus</b></li>
+                    <p>
+                        Want some peace and nature time?. Pilatus offers some inner peace and nature bonding with snowshoe hiking! 
+                        Three signposted snowshoe trails link Krienseregg and Fräkmüntegg. 
+                        The routes for it are all considered easy for beginners, therefore families and newcomers tend to come here.
+                        <ul>
+                            <h4>a. Krienseregg-Gibelegg-Dorschnei-Krienseregg</h4>
+                            <li>
+                                This hike takes under 2 hours to complete. It also provides enourmous and glorious birds-eye view over the city of 
+                                <strong>Lucerne</strong> and <strong>Lake Lucerne</strong>. 
+                                Tired? Hungry? Have a delicious snack by stopping at <strong>Berghaus Dorschnei</strong>.
+                            </li>
+                            <h4>b. Fräkmüntegg-Bonere-Mülimäs-Gibelegg-Krienseregg</h4>
+                            <li>
+                                Snowshoe hikers can access the nearest cable car from Kriens to Fräkmüntegg. 
+                                The hike to Krienseregg takes about an hour and a half to complete, with only one gentle ascent. 
+                                Hikers can replenish their energy levels at by dropping off at Berghaus Rickenschwändi.
+                            </li>
+                            <h4>c. Fräkmüntegg-Bonern-Rehlöcher-Fräkmüntegg</h4>
+                            <li>
+                                This circular trail with moderate ascents can be easily completed in a single morning, 
+                                making it suitable for the entire family. 
+                                The route offers spectacular enormous views of <strong>Lucerne</strong>, <strong>Lake Lucerne</strong>, 
+                                and the <strong>Pre-Alps</strong>.<br>
+                                If our guests fancy some beverages, 
+                                head into <strong>Restaurant Fräkmüntegg</strong> at the end of the trail for a hot chocolate or a cup of coffee.
+                            </li>
+                        </ul>    
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/ropepark1.jpg" id="imgfix" alt="Rope Park" width="50%" height="50%">
+                    <li><b>3. Fräkmüntegg adventures</b></li>
+                    <p>
+                        Adrenaline junkie or connoisseur, young or old, 
+                        the <strong>Fräkmüntegg adventures</strong> on Pilatus have something that will appeal to everyone.
+                        <ul type="none">
+                            <h4>a. Dragon Alp</h4>
+                            <li>
+                                There are multiple adventures just waiting to be discovered all around Dragon Alp's large barbecue area. 
+                                During lunchtime, Dragon Alp is the most ideal location for a barbecue party. 
+                                The small kiosk too provides tasty sweet treats as something for those who are feeling a little bit peckish.
+                            </li>
+                            <h4>b. Treetop Walkway</h4>
+                            <li>
+                                This free treetop walkway allows the entire family to get closer, nearer with one touch to nature. 
+                                Six of the 13 treetop nests 
+                                provides information boards where visitors are able to learn more about the forest and the 
+                                animals that live there.
+                            </li>
+                            <h4>c. Rope Park</h4>
+                            <li>
+                                Young adventurers and the young at heart looking for a special thrill will find it in the rope park, 
+                                which requires no special training. The 11 varying difficulty courses, the monkey trees, and the Powerfan 
+                                (freefall simulator) all can ensure tons of fun and action. Rope park beginners and aficionados alike will 
+                                find plenty to enjoy, including balance and climbing challenges, cool ropeway descents, and difficult 
+                                obstacles to overcome.<br>
+                                Words can not express the thrill and joy, JOIN IN NOW as much more awaits you!
+                            </li>
+                            <h4>Much more awaits you!</h4>
+                        </ul>
+                    </p>
+                    <hr>
+                    <img src="images/oversea1/summertoboggan.jpg" id="imgfix" alt="Summer Toboggan" width="50%" height="50%">
+                    <li><b>4. Summer Toboggan Run upon Fräkmüntegg</b></li>
+                    <p>
+                        Get into the swing of things on Switzerland's longest summer toboggan run. How long? <strong>1350 metres</strong>.
+                        <strong>1350 metres</strong> of tempo and top-notch fun. This thrilling ride down the <strong>1350-meter-long</strong> gleaming steel channel 
+                        begins on Fräkmüntegg (1415 metres altitude). It contains variety of cool curves, dragon caves, and 
+                        uilt-in jumps that will make every toboggan run an unforgettable fun experience.<br>
+                        The ride is opened in summer, in dry weather as well. 
+                    </p>
+                    <hr>
+                </ul>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="oversea1.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+</script>

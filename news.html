@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body style="background-color:floralwhite">
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>      
+                <h1>TravelGo</h1>
+                           
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style=cursor:pointer; onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div id="news-header">
+                    <h1>Covid-19 News</h1>
+                </div>
+                <div id="news">
+                    <h2>Considering travel during the pandemic? Take precautions to protect yourself from COVID-19</h2>
+
+                        <p>A coronavirus disease 2019 (COVID-19) vaccine can prevent you from getting COVID-19 or from becoming 
+                        seriously ill due to COVID-19. But even if you're vaccinated, it's still a good idea to take precautions 
+                        to protect yourself and others while traveling during the COVID-19 pandemic.</p>
+
+                        <p>If you've had all recommended COVID-19 vaccine doses, including boosters, you're less likely to become 
+                        seriously ill or spread COVID-19.</p>
+
+                        <p>World Health Organization recommends that you should avoid travel until you've had all recommended COVID-19 
+                        vaccine and booster doses. </p>
+
+                        <h2>Before You Travel</h2>
+                        <ul>
+                            <b><li>Have you been vaccinated against COVID-19?</li></b>
+                            <p> If you haven't, get vaccinated. If the vaccine requires two doses, wait two weeks after getting your 
+                            second vaccine dose to travel. If the vaccine requires one dose, wait two weeks after getting the vaccine 
+                            to travel. It takes time for your body to build protection after any vaccination.</p>
+
+                            <b><li>Have you had any booster doses?</li></b>
+                            <p>Having all recommended COVID-19 vaccine doses, including boosters, increases your protection from serious illness</p>
+
+                            <b><li>Are you at increased risk for severe illness? </li></b>
+                            <p> Anyone can get COVID-19. But older adults and people of any age with certain medical conditions are at increased 
+                            risk for severe illness from COVID-19.</p>
+
+                            <b><li>Do you live with someone who's at increased risk for severe illness? </li></b>
+                            <p>If you get infected while traveling, you can spread the COVID-19 virus to the people you live with when you return, even if you don't have symptoms.</p>
+
+                            <b><li>Does your home or destination have requirements or restrictions for travelers?</li></b>
+                            <p>Even if you've had all recommended vaccine doses, you must follow local, state and federal testing and travel rules.</p>
+                        </ul>
+
+                        <h2>Check local requirements, restrictions and situations</h2>
+                        <p>Some state, local and territorial governments have requirements, such as requiring people to wear masks, get tested, be vaccinated or stay isolated for a period of time after arrival. Before you go, check for requirements at your destination and anywhere you might stop along the way.</p>
+
+                        <p>Keep in mind these can change often and quickly depending on local conditions. It's also important to understand that the COVID-19 situation, such as the level of spread and presence of variants, varies in each country. Check back for updates as your trip gets closer.</p>
+
+
+                        <h2>Stay safe when travel</h2>
+                        <p>When you reach your destination, continue to take all the precautions to keep yourself and those around you safe from COVID-19.</p>
+                        <ul>
+                            <li>Get vaccinated.</li>
+                            <li>Keep distance between yourself and others (within about 6 feet, or 2 meters) when you're in indoor public spaces if you're not fully vaccinated. This is especially important if you have a higher risk of serious illness.</li>
+                            <img src="images/news/socialdistance.jpg" alt="Social distance about 1-2 meters" width="50%" height="50%">
+                            <li>Follow COVID-19 guidelines from local authorities when you arrive at stations, ports and airports.</li>
+                            <li>Avoid crowds and indoor places that have poor air flow (ventilation).</li>
+                            <li>Don't touch frequently touched surfaces, such as handrails, elevator buttons and kiosks. If you must touch these surfaces, use hand sanitizer or wash your hands afterward.</li>
+                            <li>Wear a face mask in indoor public spaces.</li>
+                            <img src="images/news/wearmask.jpg" alt="Wear a face mask" >
+                            <li>Clean your hands often. Be sure to wash your hands after using the bathroom, before eating, and after coughing, sneezing or blowing your nose.</li>
+                            <img src="images/news/washhand.jpg" alt="Always wash your hand">
+                            <ul>
+                                <li>Wash your hands often with soap and water for at least 20 seconds.</li>
+                                <li>If soap and water aren't available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub your hands together until they feel dry.</li>
+                            </ul>
+                            <li>Don't eat or drink on public transportation. That way you can keep your mask on the whole time.</li>
+                        </ul>
+
+                        <h2>Air travel</h2>
+                        <p>Because of the high air flow and air filter efficiency on airplanes, most viruses such as the COVID-19 virus don't spread easily on flights. Wearing masks on planes has likely helped lower the risk of getting the COVID-19 virus on flights too.</p>
+
+                        <p>However, air travel involves spending time in security lines and airport terminals, which can bring you in close contact with other people. Getting vaccinated and wearing a mask when traveling can help protect you from COVID-19 while traveling.</p>
+
+                        <ul>
+                            <li>Travelers must wear masks during screening.</li>
+                            <li>Travelers should keep a distance of 6 feet apart from other travelers when possible.</li>
+                            <li>Each traveler may have one container of hand sanitizer up to 12 ounces (about 350 milliliters) in a carry-on bag. These containers will need to be taken out for screening.</li>
+                        </ul>
+
+                        <p>Be sure to wash your hands with soap and water for at least 20 seconds directly before and after going through screening.</p>
+
+                        <h2>Public transportation</h2>
+                        <p>If you travel by bus or train and you aren't vaccinated, be aware that sitting or standing within 6 feet (2 meters) of others for a long period can put you at higher risk
+                        of getting or spreading COVID-19. Follow the precautions described above for protecting yourself during travel.</p>
+
+                        <p>Even if you fly, you may need transportation once you arrive at your destination. You can search car rental options and their cleaning policies on the internet. If you plan to stay at a hotel, check into shuttle service availability.</p>
+
+                        <p>If you'll be using public transportation and you aren't vaccinated, continue physical distancing and wearing a mask after reaching your destination.</p>
+
+                        <h2>Make a packing list</h2>
+                        <p>When it's time to pack for your trip, grab any medications you may need on your trip and these essential safe-travel supplies:</p>
+                        
+                        <ul>
+                            <li>Face masks</li>
+                            <li>Tissues</li>
+                            <li>Alcohol-based hand sanitizer (at least 60% alcohol)</li>
+                            <li>Disinfectant wipes (at least 70% alcohol)</li>
+                            <li>Thermometer</li>
+                        </ul>
+
+                        <h2>Healthcare in Malaysia</h2>
+                        <p>The government of Malaysia has stated that they are currently covering all costs related to hospitalisation for COVID-19 at assigned government facilities, regardless of nationality. The Malaysian authorities expect patients to follow the formal reporting process in place.</p>
+                        <p>If you have COVID-19 symptoms, you should call +60388810200, +60388810600 or +60388810700 or email <a href="mailto:cprc@moh.gov.my.">cprc@moh.gov.my.</a> After the consultation, you will be informed of the next steps.</p>
+                        <p>If you need medication whilst in country visit a local pharmacy who will be able to give you advice. Pharmacies can be found in shopping centres in Malaysia. If a prescription is required they will give you information about local clinics.</p>     
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="account.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+</script>

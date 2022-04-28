@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body style="background-color:beige;">
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>                  
+                <h1>TravelGo</h1>          
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div class="account_row">
+                    <div class="account_column acc1">
+                        <form id="register">
+                            <div class="titleform">REGISTER</div>
+                            <hr><br>
+    
+                            <label for="your_name">Name: </label>
+                            <div id="inputstyle">
+                                <input type="text" id="inputstyle2" placeholder="" autocomplete="off" required><br><br>
+                            </div>   
+                            <label for="email1">Email: </label>
+                            <div id="inputstyle">
+                                <input type="email"  id="inputstyle2" placeholder="" autocomplete="off" required><br><br>
+                            </div> 
+    
+                            <label for="pwd1">Password: </label>
+                            <div id="inputstyle">
+                                <input type="password"  id="inputstyle2" autocomplete="off" required ><br><br>
+                            </div>
+    
+                            <label for="age">Age: </label>
+                            <div id="inputstyle">
+                                <input type="number" id="inputstyle2"  min="1" max="120" required><br><br>
+                            </div>   
+                            
+                            <label>Gender:</label>
+                            <div id="radiostyle">
+                            <input type="radio" id="male" name="gender" required>
+                            <label for="male">Male</label>
+                            </div>
+                            <div id="radiostyle">
+                            <input type="radio" id="female" name="gender" required>
+                            <label for="female">Female</label><br><hr>                            
+                            </div>
+                            <button type="submit" class="submit_btn">Register</button>
+                        </form>                        
+                    </div>              
+                    <div class="account_row">
+                        <div class="account_column acc2">
+                        <form id="login">
+                            <div class="titleform">LOGIN</div>
+                            <hr><br>
+                            <label for="email2">Email:</label>
+                            <div id="inputstyle">
+                                <input type="email"  id="inputstyle2" placeholder="" autocomplete="off" required><br><br>
+                            </div>
+                            <label for="pwd2">Password:</label>
+                            <div id="inputstyle">
+                                <input type="password" id="inputstyle2" autocomplete="off" required><br><br>
+                            </div>
+                            <div id="extraspace"></div>
+                            <div id="checkboxstyle">
+                                <input type="checkbox" class="checkbox"><span class="form_span">Remember Password</span><br><br>
+                                <input type="checkbox" class="checkbox"><span class="form_span">I agree with the Terms and Condition</span><br><br>
+                            </div>
+                            <hr>
+                            <button type="submit" class="submit_btn">Login</button>                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer class="accountfooter">
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>
+
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+
+
+</script>

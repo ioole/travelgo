@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>TravelGo Official</title>      
+    </head>
+    <body>
+        <header>
+            <div id="titlelogo">
+                <a href="index.html"><img src="images/logo2.jpg" alt="Picture of Logo" id="logo"></a>    
+                <h1>TravelGo</h1>                      
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <div id="nav-content" class="nav-overlay">   
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">[X]</a>
+                    <div class="content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="account.html">Account Management</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.html">About us</a></li>              
+                    </div>
+                    <div class="subcontent">
+                        <div id="audiobtn" class="audio1">
+                            <button id="audiobtnplay" style="cursor:pointer;" onclick="playAudio()">Audio</button>                               
+                        </div>
+                        <div id="audiobtn" class="audio2">        
+                            <button id="audiobtnpause" style="cursor:pointer;" onclick="pauseAudio()">Pause</button>                                               
+                        </div>
+                    </div>      
+                </div>
+            <button id="openbtn" style="cursor:pointer;" onclick="openNav()">OPEN</button>    
+            </ul>
+            <audio id="webaudio" autoplay>
+                <source src="mp3and4/Kanisan x Wishes and Dreams - morning moon.mp3">
+            </audio>
+        </nav>
+        <main>
+            <div id="main">
+                <div class="slideshow">
+                    <div class="slide fade">
+                        <div class="slidenumber">1 / 6</div>
+                        <a href="whyzurich.html"><img src="images/oversea1/zuricholdtown2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">Zurich Old Town</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slidenumber">2 / 6</div>
+                        <a href="whysorenberg.html"><img src="images/oversea1/brienzer2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">Sorenberg (Brienzer Rothorn)</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slidenumber">3 / 6</div>
+                        <a href="whyfribourg.html"><img src="images/oversea1/fribourg2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">Fribourg</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slidenumber">4 / 6</div>
+                        <a href="whypilatus.html"><img src="images/oversea1/pilatus2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">Pilatus (Fräkmüntegg adventures)</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slidenumber">5 / 6</div>
+                        <a href="whyappenzell.html"><img src="images/oversea1/appenzell2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">Appenzell</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slidenumber">6 / 6</div>
+                        <a href="whystmoritz.html"><img src="images/oversea1/stmoriz2.jpg" id="slideimg" width="100%" height="50%"></a>
+                        <div class="slidetext">St. Moriz</div>
+                    </div>
+                </div>
+                <a class="next" onclick="moveSlide(1)">❯</a>
+                <a class="prev" onclick="moveSlide(-1)">❮</a>
+                <h2 id="swh2"><u>Switzerland</u></h2>
+                <div class="swrow">                           
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/pilatus.jpg" class="swimg" alt="Pilatus" width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>Pilatus</h3>
+                                <div class="swdesc">
+                                    Maker of weather, dragon's lair, home to giants and grave of rulers: Lucerne's very own mountain, <strong>Pilatus</strong>, 
+                                    is one of the most <em>legendary</em> hotspot in Central Switzerland. The most beautiful location as well. 
+                                    On a clear day, the mountain provides a 360-degree view of 73 Alpine peaks.
+                                    <hr>
+                                    <a href="whypilatus.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div>
+                    </div>                                    
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/Zurichregion.jpg" class="swimg" alt="Zurich Region" width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>Zurich Region</h3>
+                                <div class="swdesc">
+                                    <strong>Zurich</strong> is the must go location for leisure and pleasure. 
+                                    Gentle hills, tranquil woods, clean lakes and rivers, picturesque villages - 
+                                    all just a stone's throw from the Alps. 
+                                    <strong>Zurich</strong> is an excellent starting point for a wide range of excursions.
+                                    <hr>
+                                    <a href="whyzurich.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div>
+                    </div> 
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/appenzell.jpg" class="swimg" alt="Appenzell" width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>Appenzell</h3>
+                                <div class="swdesc">
+                                    The village of <strong>Appenzell and the Canton of Appenzell Innerrhoden</strong> are specially located 
+                                    in a beautiful landscape of rolling hills.
+                                    The region is famous for rural customs and traditions such as the ceremonial descent of the cattle in autumn and cultural events like 
+                                    folk music and rustic dances, not to mention hiking tours as well in the Alpstein region.<hr>
+                                    <a href="whyappenzell.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div>
+                    </div>                        
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/stmoritz.jpg" class="swimg" alt="St Moritz." width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>St. Moritz</h3>
+                                <div class="swdesc">
+                                    <strong>St. Moritz</strong> is not just a holiday destination. Did you know that in 1864, 
+                                    <strong>St. Moritz</strong> was the birthplace of Alpine winter tourism and has twice hosted the Winter Olympics? 
+                                    <strong>St. Moritz</strong> rose to prominence as a result of its mineral springs, 
+                                    which were discovered 3,000 years ago and helped establish the town as a summer spa resort early on.
+                                    <hr>
+                                    <a href="whystmoritz.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div><!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_portfolio_gallery-->
+                    </div>                                                             
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/soerenberg.jpg" class="swimg" alt="Sörenberg" width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>Sörenberg</h3>
+                                <div class="swdesc">
+                                    The <strong>Sörenberg</strong> holiday resort is located at an altitude of 1165 meters in the Entlebuch Unesco biosphere. 
+                                    This fantastic moor landscape, with its unique plant and animal life, earned the region the distinction of being one of only 400 biosphere reserves in the world. 
+                                    A true highlight for nature lovers and families.
+                                    <hr>
+                                    <a href="whysorenberg.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div>
+                    </div>                                                        
+                    <div class="swcolumn">
+                        <div class="swcontent">
+                            <img src="images/oversea1/FribourgRegion.jpg" class="swimg" alt="Fribourg Region" width="100%" height="50%">
+                            <div class="swtext">
+                                <h3>Fribourg Region</h3>
+                                <div class="swdesc">
+                                    Winter sports, cultural and tradition as well as culinary delights, tons of unique stuff that are worth your visit.
+                                    The Pays de Fribourg, a world turned upside down: cold, limestone summits are found 
+                                    in the south and mild, even Mediterranean-like lakesides in the north. On their small territory, 
+                                    two languages coexist and three very distinct holiday regions overlap: the Pre-Alps, 
+                                    the city of Fribourg and the Three-Lakes Region.
+                                    <hr>
+                                    <a href="whyfribourg.html">Click here to learn more.</a>
+                                </div>                                
+                            </div>  
+                        </div>
+                    </div>                                                                                                                                   
+                </div>
+                <div id="descontainer">
+                    <button onclick="back()" class="btnback"><span>&#8606; Back</span></button>
+                    <button onclick="book()" class="btnbook">Book</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footerrow">
+            <div class="footercolumn">
+                <h1>COMPANY</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>PRODUCTS</h1>
+                <ul>
+                    <li><a href="destination.html">Destination</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn">
+                <h1>SUPPORT</h1>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footercolumn footersocial">
+                <h1>SOCIAL</h1>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li> 
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="copyr">&#128204; Malaysia &copy; 2022 TravelGo Official, All Rights Reserved.</div>
+    </footer>
+</html>
+<script>                    
+    
+    function openNav(){
+        document.getElementById("main").style.marginLeft="20%";
+        document.getElementById("nav-content").style.width="20%";
+        document.getElementById("nav-content").style.display="block";
+        document.getElementById("openbtn").style.display="none";
+
+    }
+
+    function closeNav(){
+        document.getElementById("main").style.marginLeft="0%";
+        document.getElementById("nav-content").style.display="none";
+        document.getElementById("openbtn").style.display="inline-block";
+
+    }
+
+    var audio = document.getElementById("webaudio");
+
+    function playAudio(){
+
+        audio.play();
+    }
+
+    function pauseAudio(){
+
+        audio.pause();
+    }
+    
+    function back(){
+        let test = "Are you sure?";
+        if (confirm(test) == true){
+            window.location.href="destination.html";
+        }    
+    }
+
+    function book(){
+        window.location.href="price.html";
+    }
+
+//Slideshow
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function moveSlide(n){
+
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n){
+
+    showSlides(slideIndex = n)
+}
+
+function showSlides(n){
+
+    let i;
+    let slides = document.getElementsByClassName("slide");
+
+    if(n > slides.length){ 
+
+        slideIndex = 1
+    }
+
+    if(n < 1){ 
+
+        slideIndex = slides.length
+    }
+    
+    for(i=0; i<slides.length; i++){
+
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex-1].style.display = "block";
+}
+</script>
