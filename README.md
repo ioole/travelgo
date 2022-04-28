@@ -1,2 +1,2 @@
 # travelgo
-This is a travel booking website.
+Best Travel Sites collection for booking a cheap vacation.
